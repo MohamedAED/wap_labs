@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+	color: white;
+	background-color: gray;
+}
+
+h1, h3
+{
+	color: green;
+}
+
+a, .labs-style
+{
+	color: blue;
+}
+
+dt, strong
+{
+	color: yellow;
+}
+
+.neighbors-class
+{
+    font-family: arial-black;
+}
+
+.profile-class
+{
+	border-radius: 50%;
+	width:200px;
+}
