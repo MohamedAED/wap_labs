@@ -6,11 +6,11 @@ body{
     font-family: Verdana, Tahoma,sans-serif;
     margin: 0px;
     padding: 0px;
-    background-image:url("../images/background.png") ;
+    background-image:url("../img/background.png") ;
 }
 .header{
     text-align: center;
-    background: url("../images/bannerbg.png") repeat-x top center;
+    background: url("../img/bannerbg.png") repeat-x top center;
 }
 .movieName{
     text-align: center;
@@ -45,7 +45,7 @@ body{
     line-height: 83px;
     color: red;
     font-weight: bold;
-    background: url("../images/rbg.png") repeat-x center top;
+    background: url("../img/rbg.png") repeat-x center top;
 
 }
 .review-title img{
@@ -68,7 +68,7 @@ body{
     padding-bottom: 40px;
 
 }
-.left-review  .quot ,.right-review .quot  {
+.left-review .quot, .right-review .quot  {
     border-radius: 10px;
     border: 2px solid gray;
     background-color: #E8DC9B;
@@ -80,7 +80,7 @@ body{
 }
 
 
-.left-review     p,.right-review   p{
+.left-review p, .right-review p{
     padding-bottom: 40px;
     font-style: italic;
 
