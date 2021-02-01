@@ -9,9 +9,11 @@
     color: aliceblue;
     display: flex;
     text-align: center;
+	justify-content:center;
 }
 .menu > div{
     border-right: 1px solid black ;
+	border-left: 1px solid black ;
     padding: 1em;
 }
 .column{
@@ -41,15 +43,16 @@
 .footer{
     background-color:rgb(35, 95, 80) ;
     text-align: center;
+	grid-area: footer;
 }
 
 .grid-container{
     display: grid;
     grid-template-areas: 
-    'header'
-    'menu'
-    'column'
-    'footer';
+		'header'
+		'menu'
+		'column'
+		'footer';
 }
 @media screen and (max-width:600px){
     .column2{

@@ -17,9 +17,7 @@ function sum(...arr) {
     return arr.reduce((accumulator,item)=> {return accumulator+item});
 }
 function multiply(...arr) {
-    return arr.reduce(
-        (accumulator,item)=>{ return accumulator*item}
-    );
+    return arr.reduce((accumulator,item)=> {return accumulator*item});
 }
 function reverse(word) {
     let reversedWord = "";
